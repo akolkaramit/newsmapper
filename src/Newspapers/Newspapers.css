@@ -1,0 +1,84 @@
+.app-newspapers {
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.newspapers-name {
+	background: #fff;
+    border: none;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    color: #444;
+    box-shadow: 0px 0px 10px -2px #aaa;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.newspapers-name:hover {
+	color: #fff;
+    background: #f44336;
+}
+
+
+
+#app-newspapers-wrapper {
+	height: -webkit-fill-available;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
+	height: -webkit-fill-available;
+    border: 2px solid #eee;
+    background: #eee;
+}
+
+
+#app-newspapers-wrapper::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#app-newspapers-wrapper::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#app-newspapers-wrapper::-webkit-scrollbar-thumb {
+	background-color: #AAA;
+	border-radius: 10px;
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(0, 0, 0, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(0, 0, 0, .2) 50%,
+											  rgba(0, 0, 0, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}
+
+
+#search-newspaper-input {
+	border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.newspaper-icon-wrapper {
+	    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.newspaper-icon {
+	width: 100%;
+}
