@@ -20,7 +20,7 @@ class News extends Component {
 				<div className='app-news'>
 					<div className='row'>
 						<div className='col-lg-12'>
-							<h3 id='app-news-title'>NewsMapper</h3>
+							<h3 id='app-news-title'>NewsMapper (Designed by - Amit)</h3>
 						</div>
 						<div className='col-lg-12'>
 							<div className='app-news-selected-wrapper'>
