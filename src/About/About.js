@@ -1,13 +1,2 @@
-import React, { Component } from 'react';
-
-class About extends Component {
-  render() {
-    return (
-      <div className="">
-        <div>About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About </div>
-      </div>
-    );
-  }
-}
-
-export default About;
+"save-html-as-image": "^1.3.3",
+    "tambola-generator": "0.0.1"
