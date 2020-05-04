@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import tambola from "tambola-generator";
 import { saveAsJpeg } from "save-html-as-image";
-import "./App.css";
+import "./About.css";
 
-class About  extends Component {
+class About extends Component {
   constructor(props) {
     super(props);
     this.state = {
