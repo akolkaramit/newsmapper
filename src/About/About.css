@@ -58,6 +58,7 @@ body {
   background: #924eff;
   color: #fff;
   padding: 10px;
+  min-width: 40px;
 }
 
 .tambola-td-null {
