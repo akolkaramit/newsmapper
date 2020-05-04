@@ -100,7 +100,7 @@ class About extends Component {
                   <div className="tambola-table-margin">
                     <div id={"table" + index}>
                       <h3 className="ticket-name">Ticket {index + 1}</h3>
-                      <table key={index} className="tambola-table table-bordered">
+                      <table key={index} className="tambola-table table-bordered table-responsive">
                         <tbody className="tambola-tbody">
                           {data.map((ticketRows, ind) => {
                             return (
