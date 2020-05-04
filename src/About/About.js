@@ -39,6 +39,7 @@ class About extends Component {
 
   downloadAllTickets = () => {
     const { length } = this.state.tickets;
+    
     for (let i = 0; i < length; i++) {
       let targetImageID = document.getElementById(`table${i}`);
       saveAsJpeg(targetImageID, {
