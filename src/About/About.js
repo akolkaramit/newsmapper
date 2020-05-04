@@ -62,7 +62,7 @@ class About extends Component {
 
     return (
       <div className="tambola-body">
-        <h1 id="dfvfgfvhgfvh">Tambola Ticket Generator</h1>
+        <h1>Tambola Ticket Generator</h1>
         <div className="tambola-wrapper">
           <form className="tambola-form" onSubmit={this.generateTickets}>
             <span className="tambola-input-lable">Number of Tickets</span>
